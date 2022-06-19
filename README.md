@@ -25,7 +25,7 @@ Built with-
 - YoutubePlayer Api
 
  ### Demo Video
-[![SheCare](https://img.youtube.com/vi/GK0cRIL0wvY/0.jpg)](https://www.youtube.com/watch?v=GK0cRIL0wvY)
+[![SheCare](https://github.com/Ishita03-Singh/SheCare/blob/master/source/Untitled%20design.png)](https://www.youtube.com/watch?v=GK0cRIL0wvY)
  
  ### Screenshots
 

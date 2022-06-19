@@ -79,7 +79,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@id/head1"
                 android:text="Walking"
-                android:textSize="23sp"
+                android:textSize="15sp"
                 android:fontFamily="sans-serif"
                 />
             <TextView
@@ -89,7 +89,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@id/part1"
                 android:text="walk daily for 15 minutes atleast will be good for health."
-                android:textSize="18sp"
+                android:textSize="13sp"
                 android:fontFamily="sans-serif"
                 />
 
@@ -101,7 +101,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@id/content1"
                 android:text="Stretching"
-                android:textSize="23sp"
+                android:textSize="15sp"
                 android:fontFamily="sans-serif"
                 />
             <TextView
@@ -110,37 +110,26 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_below="@id/part2"
-                android:text="Make simple streching a part of your daily morning routine."
-                android:textSize="18sp"
+                android:text="Make simple streching a part of your daily morning routine.Stretching can also improve achiness, which can result from the tightening that occurs during workouts or when we’re hunched over our desks for hours on end. It can also alert you to muscle imbalances—say, if one side is tighter than the other when you're going into one of your favorite hip flexor stretches."
+                android:textSize="13sp"
                 android:fontFamily="sans-serif"
                 />
             <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
                 android:id="@+id/video1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:videoId="GauW8uJtvFs"
+                app:videoId="FlAvRcz0zuY"
                 app:autoPlay="false"
                 android:layout_below="@id/content2"/>
-            <TextView
-                android:id="@+id/head2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="Music and Dancing"
-                android:textColor="@color/main05"
-                android:layout_below="@id/video1"
-                android:textSize="28sp"
-                android:textStyle="bold"
-                android:fontFamily="sans-serif"
-                />
+
             <TextView
                 android:id="@+id/part3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:layout_below="@id/head2"
-                android:text="Listen music"
-                android:textSize="23sp"
+                android:layout_below="@id/video1"
+                android:text="Yoga"
+                android:textSize="15sp"
                 android:fontFamily="sans-serif"
                 />
             <TextView
@@ -149,18 +138,25 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_below="@id/part3"
-                android:text="Listening music is always soothing a nd freshens the mind."
-                android:textSize="18sp"
+                android:text="Yoga is not just a form of physical activity it also has proven benefits as a stress buster. It couples physical well being with a sound mental health. Apart from reducing weight and maintaining the overall health of a human body, Yoga also inculcates mindfulness, and attentiveness in a human body. The meditation component of yoga may even help to delay the onset of Alzheimer’s disease and fight age-related declines in memory. In fact, yoga does so much for your health, studies show people who do yoga use 43% fewer medical services and save anywhere from $640 to more than $25,000 a year!,says a Harvard Health report."
+                android:textSize="13sp"
                 android:fontFamily="sans-serif"
                 />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/video3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="v7AYKMP6rOE"
+                app:autoPlay="false"
+                android:layout_below="@id/content3"/>
             <TextView
                 android:id="@+id/part4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:layout_below="@id/content3"
-                android:text="Dance"
-                android:textSize="23sp"
+                android:layout_below="@id/video3"
+                android:text="Workout"
+                android:textSize="15sp"
                 android:fontFamily="sans-serif"
                 />
 
@@ -170,8 +166,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_below="@id/part4"
-                android:text="Make simple streching a part of your daily morning routine."
-                android:textSize="18sp"
+                android:text="This full body workout for women consists of effective calorie burning exercises. All exercises can be easily done at home and require no equipment. "
+                android:textSize="13sp"
                 android:fontFamily="sans-serif"
                 />
             <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
@@ -231,8 +227,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_below="@id/vhead1"
-                android:text="Card Games"
-                android:textSize="23sp"
+                android:text="Light walking or other light cardio"
+                android:textSize="15sp"
                 android:fontFamily="sans-serif"
                 />
             <TextView
@@ -241,8 +237,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_below="@id/vpart1"
-                android:text="This could be duplicate bridge, a game of poker with the guys, or a cut-throat game of Hearts with the grandchildren."
-                android:textSize="18sp"
+                android:text="Keep your cardiovascular or aerobic exercise at a lower intensity or back off on the amount you do. Consider light cardio, walking, or shorter bouts of aerobic exercise. There’s researchTrusted Source supporting the idea that your lungs work better later in your cycle, so consider keeping that type of training for the end of your period."
+                android:textSize="13sp"
                 android:fontFamily="sans-serif"
                 />
             <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
@@ -261,8 +257,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_below="@id/vvideo1"
-                android:text="Jigsaw Puzzles"
-                android:textSize="23sp"
+                android:text="Yoga and Pilates"
+                android:textSize="15sp"
                 android:fontFamily="sans-serif"
                 />
             <TextView
@@ -271,8 +267,10 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_below="@id/vpart2"
-                android:text="Whether it's a 300-piece puzzle or 1000-piece puzzle, putting it all together is a good exercise for the brain."
-                android:textSize="18sp"
+                android:text="The two to three days leading up to your period is a great time to engage in activities like yoga, which can help relax your body and potentially reduce symptoms like cramping, breast tenderness, and muscular fatigue and soreness.
+
+If you’re not experiencing any discomfort from your period, feel free to continue with your regular exercise routine. Just be mindful of the adjustments your body makes during this time. If you find that your body isn’t performing like it usually does, give yourself a break and ease up on the intensity."
+                android:textSize="13sp"
                 android:fontFamily="sans-serif"
                 />
 
@@ -280,7 +278,7 @@
                 android:id="@+id/vvideo2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:videoId="JUnZQ38kdak"
+                app:videoId="awrZtZ49_bg"
                 app:autoPlay="false"
                 android:layout_below="@id/vcontent2"/>
 
@@ -290,8 +288,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_below="@id/vvideo2"
-                android:text="Sudoku and Crossword Puzzles"
-                android:textSize="23sp"
+                android:text="Other tips"
+                android:textSize="15sp"
                 android:fontFamily="sans-serif"
                 />
             <TextView
@@ -300,24 +298,46 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_below="@id/vpart3"
-                android:text="These are games that require high level of thinking."
-                android:textSize="18sp"
+                android:text="->exercising, walking, or moving around "
+                android:textSize="13sp"
+                android:fontFamily="sans-serif"
+                /><TextView
+            android:id="@+id/vcontent03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/vcontent3"
+            android:text="->Eating smaller, more frequent meals"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif"
+            /><TextView
+            android:id="@+id/vcontent13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/vcontent03"
+            android:text="->having a protein-rich snack with some carbs, such as half of a turkey sandwich, half of a whole grain bagel with peanut butter, or several cubes of cheese with a handful of almonds"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif"
+            />
+            <TextView
+                android:id="@+id/vcontent23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/vcontent13"
+                android:text="->staying hydrated with plenty of water"
+                android:textSize="13sp"
                 android:fontFamily="sans-serif"
                 />
 
-            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-                android:id="@+id/vvideo3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:videoId="eKA0bzewO9I"
-                app:autoPlay="false"
-                android:layout_below="@id/vcontent3"/>
+
             <TextView
                 android:id="@+id/vcontebj"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:layout_below="@id/vvideo3"
+                android:layout_below="@id/vcontent23"
                 android:text=" "
                 android:textSize="18sp"
                 android:fontFamily="sans-serif"

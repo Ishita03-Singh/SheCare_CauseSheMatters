@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".NoInternetActivity">
+
+
+    <TextView
+
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No internet connection"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/main03"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_below="@id/tt"
+        android:id="@+id/dtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ugh! Something's not right with your internet"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/main02"
+        android:textSize="15dp"/>
+    <Button
+        android:layout_below="@id/dtt"
+        android:id="@+id/tryagainbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:backgroundTint="@color/main02"
+        android:padding="15dp"
+        android:background="@drawable/sharp_rect02"
+        android:textColor="@color/white"
+        android:textSize="15dp"/>
+    <ImageView
+        android:id="@+id/iconTV"
+        android:layout_below="@id/tryagainbtn"
+        android:layout_marginTop="30dp"
+       android:layout_marginBottom="-20dp"
+        android:src="@drawable/nointern"
+        android:layout_alignParentBottom="true"
+        android:layout_width="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="400dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/main02"
+    android:layout_height="match_parent"
+    tools:context=".DestinationActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="50dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        android:background="@drawable/sharp_rect02"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:textColorHint="@color/main06"
+        android:hint="Credential"
+        android:id="@+id/inputCredential"
+        app:layout_constraintTop_toBottomOf="@id/wrongText"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/sharp_rect02"
+        android:id="@+id/checkCredential"
+        android:padding="15dp"
+        android:text="Check Credential"
+        app:layout_constraintTop_toBottomOf="@id/inputCredential"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/main03"/>
+    <TextView
+        android:id="@+id/wrongText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try to remember your credential and enter below "
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

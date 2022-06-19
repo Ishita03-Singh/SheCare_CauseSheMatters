@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcdd2"
+    tools:context=".singupScreen">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:fontFamily="sans-serif"
+        android:textSize="34sp"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/main03"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/text"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/NameTV"
+                android:hint="Full Name"
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:layout_margin="15dp"
+                android:textColorHint="@color/main02"
+                android:textColor="@color/main01"
+                android:inputType="textPersonName|textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect01"
+                android:backgroundTint="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/Phonetv"
+                android:layout_below="@id/NameTV"
+                android:hint="Phone No."
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:layout_margin="15dp"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/main02"
+                android:textColor="@color/main01"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect01"
+                android:backgroundTint="@color/white"
+                />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="credential for reminder cancellations"
+                android:textSize="14sp"
+                android:layout_below="@id/Phonetv"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/main03"/>
+            <EditText
+                android:id="@+id/credentialtv"
+                android:layout_below="@id/text1"
+                android:hint="credential"
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:layout_margin="15dp"
+                android:inputType="textImeMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/main02"
+                android:textColor="@color/main01"
+                android:background="@drawable/sharp_rect01"
+                android:backgroundTint="@color/white"
+                />
+
+
+            <Button
+                android:id="@+id/savechangesbtn"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="Save Changes"
+                android:layout_margin="20dp"
+                app:backgroundTint="@color/main03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/credentialtv"
+                android:background="@drawable/sharp_rect02"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:minWidth="120dp"
+                ></Button>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:src="@drawable/womenportrait"
+             android:layout_below="@id/savechangesbtn"
+
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SheCare</string>
+    <string name="bbbp_scheme"><a href="https://google.com">Beti Bachao Beti Padhao Scheme </a></string>
+    <string name="oscs_scheme"><a href="https://wcd.nic.in/sites/default/files/OSC_G.pdf">One Stop Centre Scheme</a></string>
+    <string name="whs_scheme"><a href="https://wcd.nic.in/sites/default/files/WHL_G.pdf">Women Helpline Scheme</a></string>
+    <string name="ujjwala_scheme"><a href="https://wcd.nic.in/sites/default/files/Ujjawala%20New%20Scheme.pdf">UJJAWALA</a></string>
+    <string name="wwh_scheme"><a href="https://wcd.nic.in/sites/default/files/Working%20Women%20Hostel_about_revised_about.pdf">Working Women Hostel</a></string>
+    <string name="swadhar_greh"><a href="https://wcd.nic.in/sites/default/files/Revised%20Guidelines%20Swadhar%20Greh%2C2015%20%28%20English%29.pdf">SWADHAR Greh</a></string>
+    <string name="mahila_police_volunteers"><a href="https://wcd.nic.in/sites/default/files/final%20Special%20Mahila%20Police.pdf">Mahila police Volunteers</a></string>
+    <string name="mahila_shakti_kendra"><a href="https://wcd.nic.in/sites/default/files/Mahila%20Shakti%20Kendra%20Scheme.pdf">Mahila Shakti Kendras </a></string>
+
+
+</resources>

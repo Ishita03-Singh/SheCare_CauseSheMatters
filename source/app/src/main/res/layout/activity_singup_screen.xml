@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".singupScreen">
+
+    <ImageView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/register"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/text"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/emailtext"
+                android:hint="Email"
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="@color/main02"
+                android:textColor="@color/main01"
+                android:layout_marginRight="15dp"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect01"
+                android:layout_weight="1"
+                />
+            <EditText
+                android:id="@+id/passwordtext"
+                android:layout_below="@id/emailtext"
+                android:hint="Password"
+                android:padding="10dp"
+                android:textColorHint="@color/main02"
+                android:textColor="@color/main01"
+                android:drawablePadding="5dp"
+                android:layout_margin="15dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect01"
+                />
+            <EditText
+                android:id="@+id/confirmpasswordtext"
+                android:layout_below="@id/passwordtext"
+                android:hint="Confirm Password"
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:textColorHint="@color/main02"
+                android:textColor="@color/main01"
+                android:layout_margin="15dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect01"
+                />
+            <EditText
+                android:id="@+id/Nametv"
+                android:layout_below="@id/confirmpasswordtext"
+                android:hint="Full Name"
+                android:padding="10dp"
+                android:textColorHint="@color/main02"
+                android:textColor="@color/main01"
+                android:drawablePadding="5dp"
+                android:layout_margin="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect01"
+                />
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Enter Emegency contact number  without + sign and add isd code like if your number is XXXXXXX and isd code 91, then write here as 91XXXXXXXX"
+                android:textSize="14sp"
+                android:layout_below="@id/Nametv"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/PhoneTV"
+                android:layout_below="@id/text5"
+                android:hint="Emergency contact number"
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:textColorHint="@color/main02"
+                android:textColor="@color/main01"
+                android:layout_margin="15dp"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect01"
+                />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="credential to set for reminder cancellations"
+                android:textSize="14sp"
+                android:layout_below="@id/PhoneTV"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/credentialTV"
+                android:layout_below="@id/text1"
+                android:hint="Enter easy to remember credential"
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:textColorHint="@color/main02"
+                android:textColor="@color/main01"
+                android:layout_margin="15dp"
+                android:inputType="textImeMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect01"
+                />
+
+
+
+            <Button
+                android:id="@+id/registerButton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="REGISTER"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/main03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/credentialTV"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:background="@drawable/sharp_rect02"
+                android:minWidth="120dp"
+                ></Button>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

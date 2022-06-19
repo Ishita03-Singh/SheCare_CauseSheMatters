@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main06"
+    tools:context=".ExcerciseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/ll"
+        android:background="@drawable/sharp_rect03"
+        android:backgroundTint="@color/main01"
+        android:paddingTop="40dp"
+        android:paddingBottom="30dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/EarlyTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="Daily Exercise"
+            android:background="@drawable/sharp_rect02"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/lateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Period Friendly"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ll">
+        <RelativeLayout
+            android:id="@+id/midExerciseRL"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/head1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Exercise"
+                android:textColor="@color/main05"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/part1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/head1"
+                android:text="Walking"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/part1"
+                android:text="walk daily for 15 minutes atleast will be good for health."
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                />
+
+
+            <TextView
+                android:id="@+id/part2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/content1"
+                android:text="Stretching"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/content2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/part2"
+                android:text="Make simple streching a part of your daily morning routine."
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/video1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="GauW8uJtvFs"
+                app:autoPlay="false"
+                android:layout_below="@id/content2"/>
+            <TextView
+                android:id="@+id/head2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Music and Dancing"
+                android:textColor="@color/main05"
+                android:layout_below="@id/video1"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/part3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/head2"
+                android:text="Listen music"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/content3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/part3"
+                android:text="Listening music is always soothing a nd freshens the mind."
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/part4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/content3"
+                android:text="Dance"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif"
+                />
+
+            <TextView
+                android:id="@+id/content4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/part4"
+                android:text="Make simple streching a part of your daily morning routine."
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/video2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="2MoGxae-zyo"
+                app:autoPlay="false"
+                android:layout_below="@id/content4"/>
+            <TextView
+                android:id="@+id/contebj"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_below="@id/video2"
+                android:text=" "
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                />
+
+        </RelativeLayout>
+    </ScrollView >
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/ll"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/lateExerciseRL"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/vhead1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Period Friendly"
+                android:textColor="@color/main05"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/vpart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/vhead1"
+                android:text="Card Games"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/vcontent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/vpart1"
+                android:text="This could be duplicate bridge, a game of poker with the guys, or a cut-throat game of Hearts with the grandchildren."
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vvideo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="vRDuE4k6zq0"
+                app:autoPlay="false"
+                android:layout_below="@id/vcontent1"/>
+
+
+
+            <TextView
+                android:id="@+id/vpart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/vvideo1"
+                android:text="Jigsaw Puzzles"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/vcontent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/vpart2"
+                android:text="Whether it's a 300-piece puzzle or 1000-piece puzzle, putting it all together is a good exercise for the brain."
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vvideo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="JUnZQ38kdak"
+                app:autoPlay="false"
+                android:layout_below="@id/vcontent2"/>
+
+            <TextView
+                android:id="@+id/vpart3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/vvideo2"
+                android:text="Sudoku and Crossword Puzzles"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:id="@+id/vcontent3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/vpart3"
+                android:text="These are games that require high level of thinking."
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vvideo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="eKA0bzewO9I"
+                app:autoPlay="false"
+                android:layout_below="@id/vcontent3"/>
+            <TextView
+                android:id="@+id/vcontebj"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_below="@id/vvideo3"
+                android:text=" "
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

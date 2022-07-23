@@ -24,6 +24,18 @@ Built with-
 - Geolocation
 - YoutubePlayer Api
 
+### Setup
+```
+- pull the code from this repo
+- create the apk file on your android studio
+- download the apk file on your mobile and install the app
+- now you are ready to use it
+- the app has four modules:
+  1. Daily exercise
+  2. Government schemes
+  3. Notes
+  4. Reminder as a security feature which after a set interval asks for credentials to the user and if wrong ones are added then sends the location of user on the emergency number
+```
 
 
  ### Demo Video

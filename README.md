@@ -9,7 +9,7 @@
 Shecare is designed keeping in mind the concept of personal safety. It incorporates all the essential features GPS tracking, emergency contact number etc.
 
 
-Target Areas :
+### Target Areas:
 - Listing of essential chores to be done
 - Awareness about government schemes regrading women's empowerment
 - Exercise and menstrual pain tips
@@ -17,16 +17,16 @@ Target Areas :
 - Women Safety
 
 
-Built with-
+### Built with:
 - Android Studio
 - Java
 - Firebase
 - Geolocation
 - YoutubePlayer Api
 
-### Setup
+### Setup:
 ```
-- Go to idea folder and then click on the application.zip file to get the apk file of the app
+- In this repo, go to the idea folder and then click on the application.zip file to get the apk file of the app
 - download the apk file on your mobile and install the app
 - now you are ready to use it
 - the app has four modules:
@@ -37,10 +37,10 @@ Built with-
 ```
 
 
- ### Demo Video
+ ### Demo Video:
 [![SheCare](https://github.com/Ishita03-Singh/SheCare/blob/master/source/Untitled%20design.png)](https://www.youtube.com/watch?v=GK0cRIL0wvY)
  
- ### Screenshots
+ ### Screenshots:
 
       
 

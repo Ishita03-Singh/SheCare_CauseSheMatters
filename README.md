@@ -26,8 +26,7 @@ Built with-
 
 ### Setup
 ```
-- pull the code from this repo
-- create the apk file on your android studio
+- Go to idea folder and then click on the application.zip file to get the apk file of the app
 - download the apk file on your mobile and install the app
 - now you are ready to use it
 - the app has four modules:

@@ -38,7 +38,7 @@ Shecare is designed keeping in mind the concept of personal safety. It incorpora
 
 
  ### Demo Video:
-[![SheCare](https://github.com/Ishita03-Singh/SheCare_CauseSheMatters/blob/master/idea/SheCare_video.png)](https://www.youtube.com/watch?v=GK0cRIL0wvY)
+[![SheCare](https://github.com/Ishita03-Singh/SheCare_CauseSheMatters/blob/master/idea/SheCare_video.png)](https://www.loom.com/share/b072dc8fe875478899e8a6c52a9a51ec)
  
  ### Screenshots:
 

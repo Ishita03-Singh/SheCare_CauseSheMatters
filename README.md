@@ -26,7 +26,7 @@ Shecare is designed keeping in mind the concept of personal safety. It incorpora
 
 ### Setup:
 ```
-- In this repo, go to the idea folder and then click on the application.zip file to get the apk file of the app
+- In this repo, go to the **idea folder** and then click on the **application.zip** file to get the apk file of the app
 - download the apk file on your mobile and install the app
 - now you are ready to use it
 - the app has four modules:
